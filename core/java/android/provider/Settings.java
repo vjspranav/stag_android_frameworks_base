@@ -5728,6 +5728,15 @@ public final class Settings {
          */
         public static final String POCKET_JUDGE = "pocket_judge";
 
+	/**
+          * Enable disable PixysUI
+          *   0 = disabled
+          *   1 = enabled
+          * @author vjspranav
+          * @hide
+          */
+         public static final String PIXYS_UI_TOGGLE = "pixys_ui_toggle";
+
         /**
           * Statusbar Battery %
           * 0: Hide the battery percentage
@@ -6043,6 +6052,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(VIBRATE_ON_CONNECT);
             PRIVATE_SETTINGS.add(VIBRATE_ON_CALLWAITING);
             PRIVATE_SETTINGS.add(VIBRATE_ON_DISCONNECT);
+            PRIVATE_SETTINGS.add(PIXYS_UI_TOGGLE);
             PRIVATE_SETTINGS.add(POCKET_JUDGE);
             PRIVATE_SETTINGS.add(STATUSBAR_ICONS_STYLE);
             PRIVATE_SETTINGS.add(OPTIMIZED_CHARGE_ENABLED);
